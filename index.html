@@ -1,42 +1,369 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Levin Knodel</title>
+
+    <title>MeineWebseite</title>
+
+    <meta
+        name="description"
+        content="Eine moderne und responsive Webseite mit professionellem Design."
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="site-header">
-    <div class="header-container">
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-        <!-- Logo -->
-        <a href="#" class="logo">
-            MeineWebseite
-        </a>
+    <header class="site-header">
+        <div class="header-container">
 
-        <!-- Navigation -->
-        <nav class="main-nav">
-            <ul class="nav-list">
-                <li><a href="#home">Startseite</a></li>
-                <li><a href="#about">Über uns</a></li>
-                <li><a href="#services">Leistungen</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
-        </nav>
+            <!-- Logo -->
+            <a href="#" class="logo">
+                MeineWebseite
+            </a>
 
-        <!-- Call-to-Action -->
-        <a href="#contact" class="header-button">
-            Kontakt
-        </a>
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#home">Startseite</a>
+                    </li>
 
-    </div>
-</header>
+                    <li>
+                        <a href="#about">Über uns</a>
+                    </li>
+
+                    <li>
+                        <a href="#services">Leistungen</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Button -->
+            <a href="#contact" class="header-button">
+                Kontakt
+            </a>
+
+        </div>
+    </header>
 
 
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-badge">
+                        Willkommen auf unserer Webseite
+                    </span>
+
+                    <h1>
+                        Moderne Lösungen
+                        <span>für deine Zukunft.</span>
+                    </h1>
+
+                    <p>
+                        Wir entwickeln moderne, professionelle und
+                        benutzerfreundliche Lösungen, die dein Projekt
+                        auf das nächste Level bringen.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#services" class="primary-button">
+                            Leistungen entdecken
+                        </a>
+
+                        <a href="#about" class="secondary-button">
+                            Mehr erfahren
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-  
+        <!-- =========================
+             ÜBER UNS
+        ========================== -->
+
+        <section class="about-section" id="about">
+
+            <div class="section-container">
+
+                <div class="section-header">
+
+                    <span class="section-label">
+                        Über uns
+                    </span>
+
+                    <h2>
+                        Wir machen Ideen sichtbar.
+                    </h2>
+
+                    <p>
+                        Unser Ziel ist es, digitale Erlebnisse zu schaffen,
+                        die nicht nur gut aussehen, sondern auch einfach
+                        und intuitiv funktionieren.
+                    </p>
+
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-card">
+                        <div class="card-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Modernes Design
+                        </h3>
+
+                        <p>
+                            Wir setzen auf klare Strukturen, moderne
+                            Designs und eine optimale Benutzererfahrung.
+                        </p>
+                    </div>
+
+
+                    <div class="about-card">
+                        <div class="card-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            Professionelle Umsetzung
+                        </h3>
+
+                        <p>
+                            Deine Projekte werden sauber, strukturiert
+                            und mit viel Liebe zum Detail umgesetzt.
+                        </p>
+                    </div>
+
+
+                    <div class="about-card">
+                        <div class="card-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Responsive Design
+                        </h3>
+
+                        <p>
+                            Unsere Webseiten funktionieren auf
+                            Smartphones, Tablets und Desktop-Geräten.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LEISTUNGEN
+        ========================== -->
+
+        <section class="services-section" id="services">
+
+            <div class="section-container">
+
+                <div class="section-header">
+
+                    <span class="section-label">
+                        Unsere Leistungen
+                    </span>
+
+                    <h2>
+                        Was wir für dich tun können.
+                    </h2>
+
+                    <p>
+                        Von der ersten Idee bis zur fertigen Webseite:
+                        Wir begleiten dich auf deinem Weg.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <!-- Service 1 -->
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Webdesign
+                        </h3>
+
+                        <p>
+                            Moderne und individuelle Webseiten,
+                            die perfekt zu deiner Marke passen.
+                        </p>
+
+                        <a href="#" class="service-link">
+                            Mehr erfahren →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Service 2 -->
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Entwicklung
+                        </h3>
+
+                        <p>
+                            Sauberer und moderner Code für schnelle,
+                            sichere und zuverlässige Webseiten.
+                        </p>
+
+                        <a href="#" class="service-link">
+                            Mehr erfahren →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Service 3 -->
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Optimierung
+                        </h3>
+
+                        <p>
+                            Wir optimieren bestehende Webseiten für
+                            Performance, Mobile und Benutzerfreundlichkeit.
+                        </p>
+
+                        <a href="#" class="service-link">
+                            Mehr erfahren →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CALL TO ACTION
+        ========================== -->
+
+        <section class="cta-section" id="contact">
+
+            <div class="cta-container">
+
+                <div class="cta-content">
+
+                    <span class="section-label">
+                        Bereit für etwas Neues?
+                    </span>
+
+                    <h2>
+                        Lass uns gemeinsam
+                        etwas Großartiges schaffen.
+                    </h2>
+
+                    <p>
+                        Du hast eine Idee oder ein Projekt?
+                        Wir freuen uns darauf, von dir zu hören.
+                    </p>
+
+                    <a href="mailto:info@meinewebseite.de"
+                       class="primary-button">
+                        Jetzt Kontakt aufnehmen
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                MeineWebseite
+            </div>
+
+            <p>
+                © 2026 MeineWebseite. Alle Rechte vorbehalten.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="#">
+                    Impressum
+                </a>
+
+                <a href="#">
+                    Datenschutz
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
+
+</html>
