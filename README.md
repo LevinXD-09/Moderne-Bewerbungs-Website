@@ -1,1 +1,1 @@
-https://www.tiktok.com/discover/this-drawing-is-still-under-constructiob-meme
+file:///C:/Users/levin/Downloads/Under%20Construction.jpg
